@@ -42,3 +42,5 @@ To run this website locally, follow these steps:
     ```bash
     flask run
     ```
+
+Inspiration from: https://swkang73.github.io/#portfolio
