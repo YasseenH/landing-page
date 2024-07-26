@@ -21,7 +21,7 @@
 				</header>
 				<div class="container">
 					<ul class="actions special">
-						<li><a href="#one" class="button primary scrolly">Begin</a></li>
+						<li><a href="#one" class="button primary scrolly">Start</a></li>
 					</ul>
 				</div>
 			</section>
@@ -34,7 +34,8 @@
 						<header class="major">
 							<h2>Who I am</h2>
 						</header>
-						<p>Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum.</p>
+						<p>My name is Yasseen Hilal and I am a computer science student at the University of Texas at Austin in the College of Natural Sciences. I am a motivated and adaptable individual with a strong interest in STEM and a drive to make a positive impact. I am actively seeking out diverse experiences and opportunities to expand my knowledge and skills.</p>
+						<img src="images/yasseen.jpg" alt="Description of the image" class="additional-image" />
 					</div>
 					<a href="#two" class="goto-next scrolly">Next</a>
 				</div>
@@ -46,25 +47,28 @@
 					<span class="image fit primary"><img src="images/pic02.jpg" alt="" /></span>
 					<div class="content">
 						<header class="major">
-							<h2>Stuff I do</h2>
+							<h2>Skills & Tools</h2>
 						</header>
-						<p>Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet vulputate.</p>
 						<ul class="icons-grid">
 							<li>
-								<span class="icon solid major fa-camera-retro"></span>
-								<h3>Magna Etiam</h3>
-							</li>
-							<li>
-								<span class="icon solid major fa-pencil-alt"></span>
-								<h3>Lorem Ipsum</h3>
-							</li>
-							<li>
-								<span class="icon solid major fa-code"></span>
-								<h3>Nulla Tempus</h3>
+								<span class="icon solid major fa-coffee"></span>
+								<h3>Java</h3>
 							</li>
 							<li>
 								<span class="icon solid major fa-coffee"></span>
-								<h3>Sed Feugiat</h3>
+								<h3>Python</h3>
+							</li>
+							<li>
+								<span class="icon solid major fa-code"></span>
+								<h3>Javascript</h3>
+							</li>
+							<li>
+								<span class="icon solid major fa-code"></span>
+								<h3>C</h3>
+							</li>
+							<li>
+								<span class="icon solid major fa-coffee"></span>
+								<h3>SQL</h3>
 							</li>
 						</ul>
 					</div>
@@ -78,16 +82,44 @@
 					<span class="image fit primary"><img src="images/pic03.jpg" alt="" /></span>
 					<div class="content">
 						<header class="major">
-							<h2>One more thing</h2>
+							<h2>My Latest Creations</h2>
+							<div class="project">
+								<span class="image left"><img src="images/movieIcon.jpg" alt="" /></span>
+								<div>
+									<h5>Movie WebScraper & Recommender</h5>
+										<li>Developed a web scraping and movie recommendation system using Java, Jsoup, Python, pandas, and scikit-learn to extract data and provide personalized movie suggestions.</li>
+								</div>
+							</div>
+							<div class="project">
+								<span class="image left"><img src="images/discordIcon.png" alt="" /></span>
+								<div>
+									<h5>Discord Bot</h5>
+										<li>Created a Discord bot with many commands like most notably to summarize PDF documents using the Gemini API, enhancing user efficiency with Python, PyPDF, and Discord.py.</li>
+								</div>
+							</div>
+							<div class="project">
+								<span class="image left"><img src="images/huffmanIcon.jpg" alt="" /></span>
+								<div>
+									<h5>Huffman Compressor</h5>
+										<li>Built a Java-based Huffman encoding system that achieved an average 40% reduction in file size, ensuring data integrity across different formats.</li>
+								</div>
+							</div>
+							<div class="project">
+								<span class="image left"><img src="images/connect4Icon.webp" alt="" /></span>
+								<div>
+									<h5>Connect 4 GUI</h5>
+										<li>Designed and implemented a user-friendly Connect Four game using Java Swing, featuring robust game logic and scalable, modular code.</li>
+								</div>
+							</div>
 						</header>
-						<p>Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum.</p>
+						
 					</div>
 					<a href="#footer" class="goto-next scrolly">Next</a>
 				</div>
 			</section>
 
-		<!-- Four -->
-		<!--
+		<!-- Four 
+		
 			<section id="four" class="main">
 				<div class="container">
 					<div class="content">
@@ -413,11 +445,17 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					<header class="major">
 						<h2>Get in touch</h2>
 					</header>
-					<form method="post" action="#">
+					<form method="post" action="https://formspree.io/f/mzzpdlke">
 						<div class="row gtr-uniform">
-							<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-							<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-							<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+							<div class="col-6 col-12-xsmall">
+								<input type="text" name="name" id="name" placeholder="Name" required />
+							</div>
+							<div class="col-6 col-12-xsmall">
+								<input type="email" name="email" id="email" placeholder="Email" required />
+							</div>
+							<div class="col-12">
+								<textarea name="message" id="message" placeholder="Message" rows="4" required></textarea>
+							</div>
 							<div class="col-12">
 								<ul class="actions special">
 									<li><input type="submit" value="Send Message" class="primary" /></li>
@@ -426,16 +464,12 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						</div>
 					</form>
 				</div>
+				
+				</div>
 				<footer>
 					<ul class="icons">
-						<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands alt fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Demo Images: <a href="http://unsplash.com">Unsplash</a></li>
+						<li><a href="https://github.com/YasseenH" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="mailto: yasseenhilal@utexas.edu" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 				</footer>
 			</section>

@@ -1,12 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,800");
 
-/*
-	Highlights by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -258,8 +252,8 @@ input, select, textarea {
 
 	.container {
 		margin: 0 auto;
-		max-width: calc(100% - 4em);
-		width: 35em;
+		max-width: calc(100% - 3em);
+		width: 40em;
 	}
 
 		.container.xsmall {
@@ -1939,6 +1933,7 @@ input, select, textarea {
 
 	header h2 + p {
 		margin-top: -1em;
+		
 	}
 
 	header h3 + p {
@@ -1954,13 +1949,15 @@ input, select, textarea {
 
 	header.major {
 		text-align: center;
+		padding: 20px;
 	}
 
 		header.major h1, header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
 			position: relative;
+			margin-bottom: 20px;
 		}
 
-			header.major h1:after, header.major h2:after, header.major h3:after, header.major h4:after, header.major h5:after, header.major h6:after {
+			header.major h1:after, header.major h2:after, header.major h3:after, header.major h4:after, header.major h6:after {
 				background: #dddddd;
 				content: '';
 				display: block;
@@ -1972,6 +1969,26 @@ input, select, textarea {
 
 		header.major p {
 			margin-top: 0;
+		}
+		
+		header.major .project {
+			display: flex;
+			align-items: center;
+			margin-bottom: 20px;
+		}
+		
+		header.major .project .image {
+			margin-right: 20px;
+		}
+		
+		header.major .project img {
+			width: 150px; /* Adjust size as needed */
+			height: auto;
+		}
+		
+		header.major .project p {
+			margin: 0;
+			flex: 1; /* Ensure text takes up remaining space */
 		}
 
 /* Form */
@@ -2267,6 +2284,11 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+			}
+			.additional-image {
+				max-width: 80%;
+				height: auto;
+				margin-top: 20px;
 			}
 
 /* List */
@@ -2840,7 +2862,7 @@ input, select, textarea {
 			background: rgba(255, 255, 255, 0.95);
 			bottom: 0;
 			left: 50%;
-			margin-left: -17.5em;
+			margin-left: -20em;
 			padding: 2.5em;
 			position: absolute;
 		}
@@ -3123,6 +3145,10 @@ input, select, textarea {
 				.main .container .image.primary:first-child {
 					margin: -2em 0 2.5em 0;
 				}
+			.main.special {
+					padding: 20px;
+					text-align: center;
+			}
 
 		/* Footer */
 
