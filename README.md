@@ -2,6 +2,8 @@
 
 Welcome to the repository for my personal website. This site showcases my latest projects, provides a summary of my skills and experiences, and offers a way to get in touch with me.
 
+<img width="1000" alt="Screenshot 2024-08-06 at 12 33 23 AM" src="https://github.com/user-attachments/assets/e504cdcd-b9a8-4c83-97a8-d138f9e7802c">
+
 ## Table of Contents
 - [About Me](#about-me)
 - [Projects](#projects)
