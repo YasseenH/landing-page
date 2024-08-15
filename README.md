@@ -20,7 +20,7 @@ My name is Yasseen Hilal, and I am a computer science student at the University 
 ### [Discord Bot](https://github.com/YasseenH/discord-bot)
 - Created a Discord bot with commands to summarize PDF documents using the Gemini API, enhancing user efficiency with Python, PyPDF, and Discord.py.
 
-### [Huffman Compressor]
+### Huffman Compressor
 - Built a Java-based Huffman encoding system that achieved an average 40% reduction in file size, ensuring data integrity across different formats.
 
 ### [Connect Four GUI](https://github.com/YasseenH/connect-4)
